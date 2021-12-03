@@ -5,6 +5,7 @@ import './movie-list.scss';
 
 import { SwiperSlide, Swiper } from 'swiper/react';
 import tmdbApi, { category } from '../../api/tmdbApi';
+
 import MovieCard from '../movie-card/MovieCard';
 
 const MovieList = props => {
@@ -12,10 +13,11 @@ const MovieList = props => {
     const [items, setItems] = useState([]);
 
     useEffect(() => {
+
         const getList = async () => {
             let response = null;
             const params = {};
-
+    
             if (props.type !== 'similar') {
                 switch(props.category) {
                     case category.movie:
@@ -27,10 +29,12 @@ const MovieList = props => {
             } else {
                 response = await tmdbApi.similar(props.category, props.id);
             }
+
             setItems(response.results);
         }
+
         getList();
-    }, []);
+    }, [props]);
 
     return (
         <div className="movie-list">
