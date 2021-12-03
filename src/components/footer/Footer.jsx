@@ -14,26 +14,26 @@ const Footer = () => {
                 <div className="footer__content__logo">
                     <div className="logo">
                         <img src={logo} alt="" />
-                        <Link to="/">tMovies</Link>
+                        <Link to="/">AT-Movies</Link>
                     </div>
                 </div>
                 <div className="footer__content__menus">
                     <div className="footer__content__menu">
                         <Link to="/">Home</Link>
-                        <Link to="/">Contact us</Link>
-                        <Link to="/">Term of services</Link>
-                        <Link to="/">About us</Link>
+                        <a href="https://github.com/AnhTuanPham69">Contact us</a>
+                        <a href="https://github.com/AnhTuanPham69">Term of services</a>
+                        <a href="https://github.com/AnhTuanPham69">About us</a>
                     </div>
                     <div className="footer__content__menu">
-                        <Link to="/">Live</Link>
-                        <Link to="/">FAQ</Link>
-                        <Link to="/">Premium</Link>
-                        <Link to="/">Pravacy policy</Link>
+                        <a href="https://github.com/AnhTuanPham69">Live</a>
+                        <a href="https://github.com/AnhTuanPham69">FAQ</a>
+                        <a href="https://github.com/AnhTuanPham69">Premium</a>
+                        <a href="https://github.com/AnhTuanPham69">Pravacy policy</a>
                     </div>
                     <div className="footer__content__menu">
-                        <Link to="/">You must watch</Link>
-                        <Link to="/">Recent release</Link>
-                        <Link to="/">Top IMDB</Link>
+                        <a href="https://github.com/AnhTuanPham69">You must watch</a>
+                        <a href="https://github.com/AnhTuanPham69">Recent release</a>
+                        <a href="https://github.com/AnhTuanPham69">Top IMDB</a>
                     </div>
                 </div>
             </div>

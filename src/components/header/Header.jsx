@@ -46,8 +46,8 @@ const Header = () => {
         <div ref={headerRef} className="header">
             <div className="header__wrap container">
                 <div className="logo">
-                    <img src={logo} alt="" />
-                    <Link to="/">tMovies</Link>
+                    <img src={logo} alt="Logo AT-movies Web site" />
+                    <Link to="/">AT-Movies</Link>
                 </div>
                 <ul className="header__nav">
                     {
