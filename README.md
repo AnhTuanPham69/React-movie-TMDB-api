@@ -1,6 +1,10 @@
-# react-movie
+# atp-react-movie
 
-    Responsive React Movies App With API
+    Responsive React Movies App With API from https://www.themoviedb.org/
+    
+# Preview
+
+<img src="https://i.ibb.co/MkS6zRV/Header.png" alt="Header" border="0" />
 
 # Resource
 
