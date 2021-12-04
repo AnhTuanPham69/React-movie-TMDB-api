@@ -25,10 +25,10 @@ const Footer = () => {
                         <a href="https://github.com/AnhTuanPham69">About us</a>
                     </div>
                     <div className="footer__content__menu">
-                        <a href="https://github.com/AnhTuanPham69">Live</a>
-                        <a href="https://github.com/AnhTuanPham69">FAQ</a>
-                        <a href="https://github.com/AnhTuanPham69">Premium</a>
-                        <a href="https://github.com/AnhTuanPham69">Pravacy policy</a>
+                        <Link to="/">Live</Link>
+                        <Link to="/">FAQ</Link>
+                        <Link to="/">Premium</Link>
+                        <Link to="/">Pravacy policy</Link>
                     </div>
                     <div className="footer__content__menu">
                         <a href="https://github.com/AnhTuanPham69">My Github</a>
