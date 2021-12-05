@@ -2,7 +2,7 @@
 
     Responsive React Movies App With API from https://www.themoviedb.org/
     
-    Link my website: https://at-bestmovies.netlify.app/
+    Link demo website: https://at-bestmovies.netlify.app/
     
 # Preview
 
