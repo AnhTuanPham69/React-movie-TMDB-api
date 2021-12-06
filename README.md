@@ -1,6 +1,16 @@
-# react-movie
+# atp-react-movie
 
-    Responsive React Movies App With API
+    Responsive React Movies App With API from https://www.themoviedb.org/
+    
+    Link demo website: https://at-bestmovies.netlify.app/
+    
+# Preview
+
+<img src="https://i.ibb.co/MkS6zRV/Header.png" alt="Header" border="0" />
+
+<img src="https://i.ibb.co/ygHxRtr/HomePage.png" alt="HomePage" border="0" />
+
+<img src="https://i.ibb.co/Q8d2mP2/Footer.png" alt="Footer" border="0" />
 
 # Resource
 
