@@ -34,7 +34,6 @@ const Footer = () => {
                         <a href="https://github.com/AnhTuanPham69">My Github</a>
                         <a href="https://join.skype.com/invite/vbowtxWoUj1H">My Skype</a>
                         <a href="https://www.linkedin.com/in/anh-tu%E1%BA%A5n-ph%E1%BA%A1m-3b043921b/">My Linkedin</a>
-                        <a href="https://www.themoviedb.org/">Website API is obtained at https://www.themoviedb.org/</a>
                     </div>
                 </div>
             </div>

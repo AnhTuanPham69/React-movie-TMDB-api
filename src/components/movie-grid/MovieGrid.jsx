@@ -87,7 +87,7 @@ const MovieGrid = props => {
     );
 }
 
-const MovieSearch = props => {
+export const MovieSearch = props => {
 
     const history = useHistory();
 
