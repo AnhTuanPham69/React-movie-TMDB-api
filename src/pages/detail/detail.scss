@@ -31,7 +31,7 @@
 .movie-content {
     @include flex(flex-start, flex-start);
     max-width: 1260px;
-    margin-left: auto;
+    margin-left: 5%;
     margin-right: auto;
     margin-top: -200px;
     position: relative;
@@ -39,7 +39,6 @@
 
     &__poster {
         flex: 1;
-
         @include mobile {
             display: none;
         }
@@ -68,10 +67,10 @@
         }
 
         .title {
-            font-size: 4rem;
+            font-size: 3rem;
             line-height: 1;
+            padding-bottom: 2rem;
         }
-
         .genres {
             & > * ~ * {
                 margin-left: 0.5rem;
@@ -91,11 +90,11 @@
 
 .casts {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
-    gap: 10px;
-
+    grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+    gap: 30px;
     &__item {
         &__img {
+            border-radius: 15px;
             padding-top: 160px;
             background-size: cover;
             margin-bottom: 0.5rem;
@@ -109,8 +108,12 @@
 
 .video {
     margin-bottom: 3rem;
-
     &__title {
         margin-bottom: 1.5rem;
     }
+}
+.video_list{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
 }
